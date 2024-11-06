@@ -1,0 +1,30 @@
+.lang{
+    display: flex;
+    justify-content: center;
+    width: 200px;
+    border: 4px solid #888;
+    border-radius: 10px;
+    padding: 5px;
+    margin: 5px 0;
+    cursor: pointer;
+}
+
+.lang:hover{
+    border-color: yellowgreen;
+}
+
+.c1{
+    background-color: #ccc;
+    color: black;
+}
+
+.c2{
+    background-color: #444;
+    color: #ccc;
+}
+
+.destaque{
+    background-color: #444; !important;
+    color: #ccc; !important;
+    background-color: blue; !important;
+}

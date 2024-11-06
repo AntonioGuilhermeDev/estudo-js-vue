@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: none;
+    font-family: Montserrat, sans-serif;
+    box-sizing: border-box;
+}
+
+main{
+    height: 100vh;
+    background-image: url("img/checklist_background.jpg");
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+    justify-content: center;
+}
+
+.to-do-container{
+    background-color: springgreen;
+    width: 510px;
+    padding: 20px;
+    margin: 100px auto 0;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.input-task{
+    width: 80%;
+    height: 45px;
+    font-size: 18px;
+    border-radius: 5px;
+    font-weight: bold;
+    outline: none;
+    padding-left: 10px;
+}
+
+.add-task{
+    height: 45px;
+    cursor: pointer;
+    background-color: #025;
+    color: #fff;
+    font-weight: bold;
+    font-size: 15px;
+    padding: 0 5px;
+    border-radius: 5px;
+}
+
+.add-task:hover{
+    opacity: 0.9;
+}
+
+.add-task:active{
+    opacity: 0.7;
+}
+
+.task-list{
+    width: 95%;
+    list-style: none;
+    margin-top: 30px;
+}
+
+.tasks{
+    display: flex;
+    height: 50px;
+    background-color: #f2f2f2;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 15px;
+    margin-bottom: 20px;
+}
+
+img{
+    height: 25px;
+    cursor: pointer;
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
+}
+
+.tasks:hover img{
+    opacity: 1;
+}
+
+.done{
+    background-color: #8fac55;
+    text-decoration: line-through;
+}
+

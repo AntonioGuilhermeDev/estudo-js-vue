@@ -78,3 +78,23 @@ c7.addEventListener('click',(evt)=>{
 })
 
  */
+
+/*createElement
+
+const box = document.querySelector('.box');
+
+langs = ['html', 'css', 'js', 'Dart', 'Go', 'Ruby', 'Python' ];
+
+langs.map((el, index) => {
+    const newElement = document.createElement('div')
+    newElement.setAttribute('id', "c" + index + 1);
+    newElement.setAttribute('class', 'lang c1');
+    newElement.innerHTML = el;
+    box.appendChild(newElement);
+    //removeElement
+    newElement.addEventListener('click', (event) =>{
+        box.removeChild(event.target);
+    })
+})
+
+ */

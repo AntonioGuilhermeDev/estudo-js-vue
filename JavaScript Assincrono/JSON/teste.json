@@ -1,0 +1,12 @@
+[
+  {
+    "name": "Guilherme",
+    "age": 18,
+    "isWorking": true,
+    "details": {
+      "Occupation": "Estagiario",
+      "Corporation": "Corporation123"
+    },
+    "hobbies": ["Programar", "Ler"]
+  }
+]

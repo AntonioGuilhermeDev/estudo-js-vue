@@ -14,11 +14,15 @@
 //import Submmit from './Components/enviar.vue';
 //import Todolist from './Components/todolist.vue';
 //import Lifecycle from "./Components/lifecycle.vue";
-import Props from "./Components/props1.vue"
+//import Props from "./Components/props1.vue"
+//import Routes from "./Components/Routes.vue";
+//import Req from './Components/requisicao.vue'
+
 </script>
 
 <!--Html--->
 <template>
+
   <!--<interpolacao></interpolacao>-->
   <!--<condicional></condicional>-->
   <!--<forloop></forloop>-->
@@ -30,5 +34,8 @@ import Props from "./Components/props1.vue"
   <!--<submmit></submmit>-->
   <!--<todolist></todolist>-->
   <!--<lifecycle></lifecycle>-->
-  <props></props>
+  <!--<props></props>-->
+  <!--<routes></routes>-->
+  <!--<req></req>-->
+
 </template>

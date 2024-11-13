@@ -1,5 +1,6 @@
 <template>
   <div>
+    <p>{{ email }}</p>
     <p v-if="esta_trabalhando">Estou trabalhando no momento.</p>
     <p v-else>Estou em busca de novas oportunidades.</p>
     <p>Utilizo as seguintes tecnologias backend:</p>
@@ -23,7 +24,7 @@
     <div>
       <button @click="showEmail">{{ textoBotao }}</button>
     </div>
-    <p v-show="mostra_email">Email para contato: abcdefgh@gmail.com</p>
+    <p v-show="mostra_email">Email para contato: {{ email }}</p>
     <Picture></Picture>
   </div>
 </template>
@@ -35,6 +36,9 @@ export default {
   name: "info",
   components: {
     Picture,
+  },
+  props: {
+    email: String,
   },
   data() {
     return {

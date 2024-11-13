@@ -1,0 +1,204 @@
+{
+  "ingredientes": {
+    "massas": [
+      {
+        "id": 1,
+        "tipo": "Massa Fina"
+      },
+      {
+        "id": 2,
+        "tipo": "Massa Grossa"
+      },
+      {
+        "id": 3,
+        "tipo": "Massa Integral"
+      },
+      {
+        "id": 4,
+        "tipo": "Massa com Gergelim"
+      },
+      {
+        "id": 5,
+        "tipo": "Massa com Borda Recheada de Queijo"
+      },
+      {
+        "id": 6,
+        "tipo": "Massa com Borda Recheada de Catupiry"
+      },
+      {
+        "id": 7,
+        "tipo": "Massa com Borda Recheada de Chocolate"
+      }
+    ],
+    "sabores": [
+      {
+        "id": 1,
+        "tipo": "Calabresa"
+      },
+      {
+        "id": 2,
+        "tipo": "Mussarela"
+      },
+      {
+        "id": 3,
+        "tipo": "Quatro Queijos"
+      },
+      {
+        "id": 4,
+        "tipo": "Vegetariana"
+      },
+      {
+        "id": 5,
+        "tipo": "Frango com Catupiry"
+      },
+      {
+        "id": 6,
+        "tipo": "Pepperoni"
+      },
+      {
+        "id": 7,
+        "tipo": "Margherita"
+      },
+      {
+        "id": 8,
+        "tipo": "Portuguesa"
+      },
+      {
+        "id": 9,
+        "tipo": "Chocolate com Morango"
+      },
+      {
+        "id": 10,
+        "tipo": "Brigadeiro"
+      },
+      {
+        "id": 11,
+        "tipo": "Romeu e Julieta"
+      },
+      {
+        "id": 12,
+        "tipo": "Banana com Canela"
+      }
+    ],
+    "opcionais": [
+      {
+        "id": 1,
+        "tipo": "Azeitona"
+      },
+      {
+        "id": 2,
+        "tipo": "Cebola"
+      },
+      {
+        "id": 3,
+        "tipo": "Tomate"
+      },
+      {
+        "id": 4,
+        "tipo": "Pimentão"
+      },
+      {
+        "id": 5,
+        "tipo": "Manjericão"
+      },
+      {
+        "id": 6,
+        "tipo": "Alho"
+      },
+      {
+        "id": 7,
+        "tipo": "Bacon"
+      },
+      {
+        "id": 8,
+        "tipo": "Catupiry"
+      },
+      {
+        "id": 9,
+        "tipo": "Orégano"
+      },
+      {
+        "id": 10,
+        "tipo": "Granulado de Chocolate"
+      },
+      {
+        "id": 11,
+        "tipo": "Coco Ralado"
+      },
+      {
+        "id": 12,
+        "tipo": "M&Ms"
+      }
+    ]
+  },
+  "status": [
+    {
+      "id": 1,
+      "tipo": "Solicitado"
+    },
+    {
+      "id": 2,
+      "tipo": "Em produção"
+    },
+    {
+      "id": 3,
+      "tipo": "Finalizado"
+    }
+  ],
+  "pizzas": [
+    {
+      "id": "7bc7",
+      "name": "Antonio Guilherme",
+      "sabor": "Mussarela",
+      "massa": "Massa com Borda Recheada de Catupiry",
+      "opcionais": [
+        "Orégano",
+        "Bacon"
+      ],
+      "status": "Solicitado"
+    },
+    {
+      "id": "9f7c",
+      "name": "Antonio Guilherme",
+      "sabor": "Brigadeiro",
+      "massa": "Massa Fina",
+      "opcionais": [
+        "Azeitona",
+        "Tomate"
+      ],
+      "status": "Solicitado"
+    },
+    {
+      "id": "b211",
+      "name": "Julio",
+      "sabor": "Banana com Canela",
+      "massa": "Massa com Borda Recheada de Chocolate",
+      "opcionais": [
+        "Granulado de Chocolate",
+        "M&Ms"
+      ],
+      "status": "Solicitado"
+    },
+    {
+      "id": "22a8",
+      "name": "joao",
+      "sabor": "Brigadeiro",
+      "massa": "Massa Fina",
+      "opcionais": [
+        "M&Ms",
+        "Coco Ralado"
+      ],
+      "status": "Solicitado"
+    },
+    {
+      "id": "fc09",
+      "name": "Maria",
+      "sabor": "Brigadeiro",
+      "massa": "Massa com Borda Recheada de Chocolate",
+      "opcionais": [
+        "Coco Ralado"
+      ],
+      "status": "Solicitado"
+    }
+  ]
+}

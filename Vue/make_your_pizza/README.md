@@ -1,19 +1,22 @@
-# make_your_pizza
+# Projeto MakeYourPizza
 
-## Project setup
+Projeto de gerenciamento de pedidos utilizando Vue3 e Json Server
+
+### Pré Requisitos
+- Node.js
+- Vue CLI
+
+### Instalar as dependencias:
 ```
 npm install
 ```
 
-### Compiles and hot-reloads for development
+### Inicializar LocalHost do Vue
 ```
 npm run serve
 ```
 
-### Compiles and minifies for production
+### Inicializar Json Server
 ```
-npm run build
+npm run backend
 ```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).

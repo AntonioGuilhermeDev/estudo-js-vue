@@ -133,72 +133,41 @@
   },
   "status": [
     {
-      "id": 1,
+      "id": "1",
       "tipo": "Solicitado"
     },
     {
-      "id": 2,
+      "id": "2",
       "tipo": "Em produção"
     },
     {
-      "id": 3,
+      "id": "3",
       "tipo": "Finalizado"
     }
   ],
   "pizzas": [
     {
-      "id": "7bc7",
+      "id": "8f79",
       "name": "Antonio Guilherme",
-      "sabor": "Mussarela",
-      "massa": "Massa com Borda Recheada de Catupiry",
+      "sabor": "Quatro Queijos",
+      "massa": "Massa com Borda Recheada de Queijo",
       "opcionais": [
+        "Bacon",
         "Orégano",
-        "Bacon"
+        "Catupiry"
       ],
-      "status": "Solicitado"
+      "status": "Finalizado"
     },
     {
-      "id": "9f7c",
-      "name": "Antonio Guilherme",
-      "sabor": "Brigadeiro",
-      "massa": "Massa Fina",
-      "opcionais": [
-        "Azeitona",
-        "Tomate"
-      ],
-      "status": "Solicitado"
-    },
-    {
-      "id": "b211",
-      "name": "Julio",
-      "sabor": "Banana com Canela",
-      "massa": "Massa com Borda Recheada de Chocolate",
-      "opcionais": [
-        "Granulado de Chocolate",
-        "M&Ms"
-      ],
-      "status": "Solicitado"
-    },
-    {
-      "id": "22a8",
-      "name": "joao",
+      "id": "bac9",
+      "name": "João",
       "sabor": "Brigadeiro",
       "massa": "Massa Fina",
       "opcionais": [
         "M&Ms",
         "Coco Ralado"
       ],
-      "status": "Solicitado"
-    },
-    {
-      "id": "fc09",
-      "name": "Maria",
-      "sabor": "Brigadeiro",
-      "massa": "Massa com Borda Recheada de Chocolate",
-      "opcionais": [
-        "Coco Ralado"
-      ],
-      "status": "Solicitado"
+      "status": "Em produção"
     }
   ]
 }

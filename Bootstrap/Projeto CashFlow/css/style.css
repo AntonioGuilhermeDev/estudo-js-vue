@@ -40,7 +40,33 @@ body{
 
 .nav-link:hover, .nav-link:active{
     color: #000;
+}
 
+.hero-section {
+    margin-top: 80px;
+    height: 100vh;
+    margin-bottom: 160px;
+}
+
+#features{
+    height: 90vh;
+    margin-top: 80px;
+    scroll-margin-top: 80px;
+    margin-bottom: 160px;
+}
+
+#pricing{
+    height: 90vh;
+    scroll-margin-top: 130px;
+    margin-bottom: 120px;
+}
+
+@media (max-width: 991px) {
+    .hero-section, #features, #pricing, #contact {
+        margin-top: 14rem;
+        margin-bottom: 5rem;
+        height: 130vh;
+    }
 }
 
 @media (min-width: 991px) {
@@ -64,14 +90,3 @@ body{
     }
 }
 
-.hero-section{
-    width: 100%;
-    height: 100vh;
-    display: flex;
-}
-
-.hero-section img{
-    width: 100%;
-    height: 90%;
-    margin: auto;
-}

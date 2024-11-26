@@ -6,7 +6,7 @@
         <b-form-group label="Buscar Livros" class="flex-grow-1 h2 mb-0">
           <b-form-input
               v-model="query"
-              placeholder="Digite o título ou autor do livro"
+              placeholder="Digite o título do livro"
               size="sm"
               class="mr-2"
           ></b-form-input>
@@ -23,8 +23,8 @@
         </div>
         <div v-else>
           <b-row>
-            <b-col>
-              v-for="(book, index) in books"
+            <b-col
+              v-for="(book, index) in paginatedBooks"
               :key="index"
               cols="12"
               md="6"
@@ -37,8 +37,16 @@
         </div>
       </b-container>
     </div>
+    <div class="overflow-auto mt-4">
+      <b-pagination
+          v-model="currentPage"
+          :total-rows="books.length"
+          :per-page="perPage"
+          aria-controls="book-results"
+          class="justify-content-center"
+      ></b-pagination>
+    </div>
   </div>
-
 </template>
 
 <script>
@@ -52,12 +60,41 @@ export default {
   data() {
     return {
       query: '',
+      books: [],
+      currentPage: 1,
+      perPage: 12,
     }
   },
   components: {
     BookCard,
   },
+  computed: {
+    paginatedBooks() {
+      const start = (this.currentPage - 1) * this.perPage
+      const end = start + this.perPage
+      return this.books.slice(start, end)
+    }
+  },
   methods: {
+    searchBooks() {
+      if (!this.query.trim()) {
+        this.books = [];
+        return;
+      }
+
+      const formattedQuery = this.query.trim().replace(/\s+/g, '+');
+      const url = `https://www.googleapis.com/books/v1/volumes?q=search+${formattedQuery}&maxResults=40`;
+
+      axios.get(url)
+          .then(response => {
+            this.books = response.data.items || [];
+            console.log(response.data.items);
+          })
+          .catch(error => {
+            console.error("Erro ao buscar livros:", error);
+            this.books = [];
+          })
+    }
   }
 }
 

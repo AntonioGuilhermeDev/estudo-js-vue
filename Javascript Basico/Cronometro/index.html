@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Cronometro</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="main" class="main">
+        <div id="divTimer">
+          <p id="timer">00:00:00</p>
+            <div id="buttons">
+                <button id="startButton" class="btn">Iniciar</button>
+                <button id="partialButton" class="btn">Parcial</button>
+                <button id="stopButton" class="btn">Parar</button>
+                <button id="restartButton" class="btn">Reiniciar</button>
+            </div>
+        </div>
+        <div id="partials" class="partials">
+            <h2>Parciais:</h2>
+            <ol id="registeredPartials" class="registeredPartials">
+
+            </ol>
+        </div>
+    </div>
+<script src="main.js"></script>
+</body>
+</html>

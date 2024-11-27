@@ -1,0 +1,99 @@
+body{
+    background-color: #253745;
+}
+
+.bg-deep-blue{
+    background-color: #253745;
+}
+
+.bg-cyan{
+    background-color: #729da9;
+}
+
+.bg-light-gray{
+    background-color: #e6e3de;
+}
+
+.bg-gray{
+    background-color: #ccd0cf;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 40px auto;
+    width: 40%;
+    background-color: #e6e3de;
+    border-radius: 10px;
+}
+
+.form-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+}
+
+.lists{
+    display: flex;
+    flex-direction: row;
+    gap: 150px;
+}
+
+ul{
+    list-style: none;
+}
+
+li{
+    font-size: 18px;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+
+}
+
+input{
+    margin-bottom: 20px;
+}
+
+label{
+    margin-bottom: 10px;
+}
+
+#peso{
+    width: 50%;
+    height: 20px;
+}
+
+#altura{
+    width: 50%;
+    height: 20px;
+}
+
+#btn{
+    width: 50%;
+    height: 20px;
+}
+
+.results{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    border: 2px black solid;
+    padding: 0 10px;
+}
+
+.h3{
+    font-weight: bold;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+label{
+    font-size: 20px;
+    font-weight: bold;
+}

@@ -28,7 +28,3 @@ Este repositório contém a documentação de diversas APIs públicas criadas ut
 
 Clique nos links de cada API para visualizar a documentação completa no Postman.  
 Para utilizar os exemplos, importe a documentação no seu workspace do Postman.
-
----
-
-Criado por [Seu Nome]
